@@ -21,7 +21,7 @@ int partition (Product *arr, int start, int end){
 			
 		}
 	}
-		//swapp nigga
+		//swap
 		return i;
 		
 }
@@ -38,3 +38,4 @@ int main(){
 	
 	return 0;
 }
+
