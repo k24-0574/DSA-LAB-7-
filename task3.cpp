@@ -15,7 +15,7 @@ void Merge(participant *arr, int start, int end, int mid){
 		else temp[count++] = arr[j++];
 	}
 	while(i<=mid) temp[count++] = arr[i++];
-	while(j<=mid) temp[count++] = arr[j++];
+	while(j<=end) temp[count++] = arr[j++];
 	
 	count =0;
 	i=start;
@@ -53,3 +53,4 @@ int main(){
 	delete[] P;
 	return 0;
 }
+
